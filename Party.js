@@ -31,3 +31,6 @@ App.game.party.calculateClickAttack = function () {
 
 //                {Gain Exp}
 App.game.party.gainPokemon(20,2) // [1] Exp: get like a 10th of a level if that makes sense? [2] ?Levels:
+
+// Gain exp for a single pokemon:
+App.game.party.caughtPokemon[5].gainExp(200) // [1] pokemon index -1 (for this example the 6th pokemon) [2] how much exp: like the gain exp from line the {Gain EXp}
