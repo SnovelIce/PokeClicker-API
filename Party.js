@@ -37,9 +37,16 @@ App.game.party.caughtPokemon[5].gainExp(200) // [1] pokemon index -1 (for this e
 
 //                        {Editing Pokemon's data}
 //Pokemon data that can be changed In pokemonProperty.txt
-
+// Examples:
 App.game.party.caughtPokemon[5].id = 151
 App.game.party.caughtPokemon[5].name = 'Mew'// When reload the save file the pokemon turns into mew
+
+for (const pokemon of App.game.party.caughtPokemon) {
+           pokemon.hideShinyImage = true;
+}// A funny prank to hide all shines without removing them it's just add them the property to make them look like the non-shiny version. you can disable it by changing it in the pokemon's property or running this command:
+for (const pokemon of App.game.party.caughtPokemon) {
+           pokemon.hideShinyImage = false;
+}
 
 
 
