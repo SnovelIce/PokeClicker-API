@@ -36,7 +36,7 @@ App.game.party.gainPokemon(20,2) // [1] Exp: get like a 10th of a level if that 
 App.game.party.caughtPokemon[5].gainExp(200) // [1] pokemon index -1 (for this example the 6th pokemon) [2] how much exp: like the gain exp from line the {Gain EXp}
 
 //                        {Editing Pokemon's data}
-//Pokemon data that can be changed In PokemonProperty
+//Pokemon data that can be changed In pokemonProperty.txt
 
 App.game.party.caughtPokemon[5].id = 151
 App.game.party.caughtPokemon[5].name = 'Mew'// When reload the save file the pokemon turns into mew
